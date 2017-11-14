@@ -1,0 +1,88 @@
+html {
+	background: #D3D3D3;
+}
+
+.masterbox-set {
+	position: relative;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.headerbox {
+	background-color: #ffffff;
+	height: 85px;
+	position: relative;
+	top: -9px;
+	left: -8px;
+	z-index: -2;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	position: relative;
+	top: -115px;
+	left: 30px;
+	width: 240px;
+	height: 85px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 85px;
+	}
+
+h2 {
+	color: #4aaaa5;
+	position: relative;
+	width: 650px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	height: 25px;
+	padding-left: 45px;
+	top: -100px;
+}
+
+.content {
+	width: 650px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	z-index: 1;
+	padding-left: 45px;
+	position: relative;
+	top: -250px;
+	clear: both;
+}
+
+.content-box {
+	width: 650px;
+	height: 900px;
+	background-color: #ffffff;
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+	left: 37px;
+}
+
+.button {
+	background-color: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+	border: none;
+	padding: 15px 32px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 15px;
+	padding-top: 10px;
+}
+
+.connect-with-me {
+	background-color: #ffffff;
+	width: 270px;
+	height: 200px;
+	display: inline;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	text-align: center;
+	font-size: 22px;
+	float: right;
+}
+
+header {
+	float: right;
+	position: relative;
+}
