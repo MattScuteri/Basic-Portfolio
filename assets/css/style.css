@@ -107,6 +107,22 @@ h3 {
 	top:-83px;
 }
 
+.hangman {
+	float: left;
+}
+
+.hangman-img {
+	float: left;
+}
+
+.rpg {
+	float: right;
+}
+
+.rpg-img {
+	float: right;
+}
+
 form {
 	padding-left: 18px;
 }
