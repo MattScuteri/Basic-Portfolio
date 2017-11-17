@@ -107,20 +107,147 @@ h3 {
 	top:-83px;
 }
 
-.hangman {
+.hangman-group {
+	position: relative;
 	float: left;
+	left: 20px;
+	width: 300px;
+	height: 200px;
+	top: -75px;
+}
+
+.hangman {
+	width: 300px;
+	height: 50px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	text-align: center;
+	z-index: 1;
+	position: relative;
+	top: 210px;
+	left: -40px;
+	line-height: 50px;
 }
 
 .hangman-img {
-	float: left;
+	position: relative;
+}
+
+.rpg-group {
+	position: relative;
+	float: right;
+	width: 300px;
+	height: 200px;
+	right: 20px;
+	top: -75px;
 }
 
 .rpg {
-	float: right;
+	width: 300px;
+	height: 50px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	text-align: center;
+	z-index: 1;
+	position: relative;
+	top: 210px;
+	right: 40px;
+	line-height: 50px;
 }
 
 .rpg-img {
+	position: relative;
+}
+
+.trivia-group {
+	position: relative;
+	float: left;
+	left: 20px;
+	width: 300px;
+	height: 200px;
+	padding-top: 20px;
+	top: -75px;
+}
+
+.trivia {
+	width: 300px;
+	height: 50px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	text-align: center;
+	z-index: 1;
+	position: relative;
+	top: 210px;
+	left: -40px;
+	line-height: 50px;
+}
+
+.trivia-img {
+	position: relative;
+}
+
+.widget-group {
+	position: relative;
 	float: right;
+	right: 20px;
+	width: 300px;
+	height: 200px;
+	padding-top: 20px;
+	top: -75px;
+}
+
+.widget {
+	width: 300px;
+	height: 50px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	text-align: center;
+	z-index: 1;
+	position: relative;
+	top: 210px;
+	right: 40px;
+	line-height: 50px;
+}
+
+.widget-img {
+	position: relative;
+}
+
+.rps-group {
+	position: relative;
+	float: left;
+	left: 20px;
+	width: 300px;
+	height: 200px;
+	padding-top: 20px;
+	top: -75px;
+}
+
+.rock-paper-scissors {
+	width: 300px;
+	height: 50px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	text-align: center;
+	z-index: 1;
+	position: relative;
+	top: 210px;
+	left: -40px;
+	line-height: 50px;
+}
+
+.rock-paper-scissors-img {
+	position: relative;
 }
 
 form {
