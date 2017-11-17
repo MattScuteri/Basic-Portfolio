@@ -107,6 +107,16 @@ h3 {
 	top:-83px;
 }
 
+.portrait {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.bio {
+	padding-right: 10px;
+}
+
 .hangman-group {
 	position: relative;
 	float: left;
